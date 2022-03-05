@@ -3,5 +3,5 @@ from django.db import models
 # Create your models here.
 
 class Count(models.Model):
-    number_view = models.IntegerField()
+    visit = models.TextField(max_length=100)
     created = models.DateTimeField(auto_now_add=True)

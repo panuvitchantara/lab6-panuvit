@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from counter.models import Count
+from .models import Count
+
 
 class CountSerializer(serializers.ModelSerializer):
     class Meta:
